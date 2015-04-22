@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sf_guard_plugin:
+    remember_cookie_name: olasRememberLogin
+
+  csSettingsPlugin:
+    cache:
+      class: sfFileCache
+      options:
+        automatic_cleaning_factor: 0
+        cache_dir:                 %SF_TEMPLATE_CACHE_DIR%
+        lifetime:                  300
+        prefix:                    %SF_APP_DIR%/template
+
+  api:
+    username: LHEz9we9VmWh
+    password: CEWxa9ViZgdd

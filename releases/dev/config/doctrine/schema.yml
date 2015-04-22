@@ -1,0 +1,342 @@
+# vim:ts=2 sw=2 et:
+connection: doctrine
+options:
+  type: INNODB
+  collate: utf8_bin
+  charset: utf8
+
+Session:
+  tableName: session
+  columns:
+    id:
+      type: string(64)
+      notnull: true
+      primary: true
+    sess_data: object
+    sess_time: int(11)
+  indexes:
+    sess_time:
+      fields: sess_time
+
+School:
+  tableName: school
+  columns:
+    id:
+      type: integer(5)
+      primary: true
+      unsigned: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    school_id:
+      type: string(10)
+      notnull: true
+    district_id:
+      type: string(10)
+      notnull: true
+    url_identifier:
+      type: string(64)
+    ru_enabled:
+      type: boolean
+      notnull: true
+      default: true
+    mo_enabled:
+      type: boolean
+      notnull: true
+      default: true
+    elem_ru_enabled:
+      type: boolean
+      notnull: true
+      default: false
+    elem_mo_enabled:
+      type: boolean
+      notnull: true
+      default: false
+    shrads_id:
+      type: integer(5)
+      notnull: false
+  indexes:
+    url:
+      fields: url_identifier
+      type: unique
+    name:
+      fields: name
+    school:
+      fields: [school_id, district_id]
+      type: unique
+    district_id:
+      fields: district_id
+
+Student:
+  tableName: student
+  columns:
+    id:
+      type: integer(5)
+      primary: true
+      unsigned: true
+      autoincrement: true
+    school_id:
+      type: integer(5)
+      unsigned: true
+      notnull: true
+    student_id:
+      type: string(10)
+      notnull: true
+    first_name:
+      type: string(50)
+    last_name:
+      type: string(50)
+    ru_class_id:
+      type: string(2)
+    ethnicity:
+      type: integer(1)
+    gender:
+      type: integer(1)
+    mo_class_id:
+      type: string(2)
+    lesson_count:
+      type: integer(1)
+    ru_start:
+      type: timestamp
+    ru_complete:
+      type: timestamp
+    ru_sent:
+      type: timestamp
+    ru_shrads:
+      type: integer(5)
+    mo_start:
+      type: timestamp
+    mo_complete:
+      type: timestamp
+    mo_sent:
+      type: timestamp
+    mo_shrads:
+      type: integer(5)
+    elem_ru_age:
+      type: integer(1)
+    elem_ru_grade:
+      type: integer(1)
+    elem_ru_class_id:
+      type: string(2)
+    elem_ru_teacher:
+      type: string(255)
+    elem_ru_ethnicity:
+      type: integer(1)
+    elem_ru_start:
+      type: timestamp
+    elem_ru_complete:
+      type: timestamp
+    elem_ru_sent:
+      type: timestamp
+    elem_ru_shrads:
+      type: integer(5)
+    elem_mo_age:
+      type: integer(1)
+    elem_mo_grade:
+      type: integer(1)
+    elem_mo_class_id:
+      type: string(2)
+    elem_mo_teacher:
+      type: string(255)
+    elem_mo_ethnicity:
+      type: integer(1)
+    elem_mo_start:
+      type: timestamp
+    elem_mo_complete:
+      type: timestamp
+    elem_mo_sent:
+      type: timestamp
+    elem_mo_shrads:
+      type: integer(5)
+    shrads_error:
+      type: clob(65532)
+  relations:
+    School:
+      foreignAlias: Students
+      onDelete: CASCADE
+  indexes:
+    school_student:
+      fields: [school_id, student_id]
+      type: unique
+    ru_sent:
+      fields: ru_sent
+    mo_sent:
+      fields: mo_sent
+    elem_ru_sent:
+      fields: elem_ru_sent
+    elem_mo_sent:
+      fields: elem_mo_sent
+
+Scale:
+  tableName: scale
+  columns:
+    id:
+      type: integer(5)
+      primary: true
+      unsigned: true
+      autoincrement: true
+    description:
+      type: string(255)
+      notnull: true
+  indexes:
+    desc:
+      fields: description
+
+ScaleValue:
+  tableName: scale_value
+  columns:
+    id:
+      type: integer(5)
+      primary: true
+      unsigned: true
+      autoincrement: true
+    scale_id:
+      type: integer(5)
+      unsigned: true
+      notnull: true
+    value:
+      type: integer(1)
+      notnull: true
+    description:
+      type: string(64)
+      notnull: true
+    description_es:
+      type: string(64)
+  relations:
+    Scale:
+      foreignAlias: ScaleValues
+
+Question:
+  tableName: question
+  columns:
+    id:
+      type: integer(5)
+      primary: true
+      unsigned: true
+      autoincrement: true
+    question:
+      type: string(255)
+      notnull: true
+    question_es:
+      type: string(255)
+    ru_page_id:
+      type: integer(5)
+      unsigned: true
+    ru_question_number:
+      type: integer
+    mo_page_id:
+      type: integer(5)
+      unsigned: true
+    mo_question_number:
+      type: integer
+    elem_ru_page_id:
+      type: integer(5)
+      unsigned: true
+    elem_ru_question_number:
+      type: integer
+    elem_mo_page_id:
+      type: integer(5)
+      unsigned: true
+    elem_mo_question_number:
+      type: integer
+  relations:
+    RUPage:
+      class: QuestionPage
+      local: ru_page_id
+      foreignAlias: RUQuestions
+    MOPage:
+      class: QuestionPage
+      local: mo_page_id
+      foreignAlias: MOQuestions
+    ElemRUPage:
+      class: QuestionPage
+      local: elem_ru_page_id
+      foreignAlias: ElemRUQuestions
+    ElemMOPage:
+      class: QuestionPage
+      local: elem_mo_page_id
+      foreignAlias: ElemMOQuestions
+  indexes:
+    ru_num:
+      fields: ru_question_number
+    mo_num:
+      fields: mo_question_number
+    sh_ru_num:
+      fields: [elem_ru_question_number]
+    sh_mo_num:
+      fields: [elem_mo_question_number]
+
+QuestionPage:
+  tableName: question_page
+  columns:
+    id:
+      type: integer(5)
+      primary: true
+      unsigned: true
+      autoincrement: true
+    type:
+      type: enum
+      values: [ru, mo, sh_ru, sh_mo]
+    page:
+      type: integer
+      notnull: true
+    title:
+      type: string(255)
+      notnull: true
+    title_es:
+      type: string(255)
+    intro:
+      type: clob(65532)
+      notnull: true
+    intro_es:
+      type: clob(65532)
+    instructions:
+      type: clob(65532)
+      notnull: true
+    instructions_es:
+      type: clob(65532)
+    scale_id:
+      type: integer(5)
+      unsigned: true
+      notnull: true
+  relations:
+    Scale:
+  indexes:
+    page:
+      fields: [page, type]
+
+StudentAnswer:
+  tableName: student_answer
+  actAs:
+    Timestampable:
+      updated:
+        disabled: true
+  columns:
+    id:
+      type: integer(5)
+      primary: true
+      unsigned: true
+      autoincrement: true
+    student_id:
+      type: integer(5)
+      unsigned: true
+      notnull: true
+    question_id:
+      type: integer(5)
+      unsigned: true
+      notnull: true
+    value:
+      type: integer(1)
+    assessment:
+      type: enum
+      values: [ru, mo, sh_ru, sh_mo]
+      notnull: true
+  relations:
+    Question:
+    Student:
+      onDelete: CASCADE
+  indexes:
+    student_assessment_question:
+      fields: [student_id, assessment, question_id]
+      type: unique

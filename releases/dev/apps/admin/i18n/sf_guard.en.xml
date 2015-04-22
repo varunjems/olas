@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>Username</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Password</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Remember</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Signin</source>
+        <target>Sign In</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Forgot your password?</source>
+      </trans-unit>
+      <trans-unit>
+        <source>You don't have the required permission to access this page.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

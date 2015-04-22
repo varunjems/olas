@@ -1,0 +1,15 @@
+To upgrade OLAS from verion 2.0 to version 2.1:
+
+- The directory 20131204072200 should be placed under the existing
+  releases directory
+
+- Verify that the symbolic link for log/ resolves to the shared/log/ directory
+
+- Verify that the file config/databases.yml resolves to the existing version
+  in the shared/config/ directory
+
+- Apply the database updates
+
+  ./scripts/update_2.1.sh
+
+- Change the symbolic link "current" to point to releases/20131204072200

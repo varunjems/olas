@@ -1,0 +1,511 @@
+Question:
+  -
+    question: finish school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 1
+  -
+    question: do well in school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 2
+  -
+    question: find a career goal.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 3
+  -
+    question: show my teacher that I want to do well in school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 4
+  -
+    question: show my teacher that I care about school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 5
+  -
+    question: get good grades in school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 6
+  -
+    question: train for my career after high school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 7
+  -
+    question: learn how to be successful in school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 8
+  -
+    question: learn how to be a good student.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 9
+  -
+    question: go to college for 2-4 years after high school.
+    ElemRUPage: page_elem_ru_school_1
+    elem_ru_question_number: 10
+
+
+  -
+    question: make new friends at school.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 11
+  -
+    question: talk to teachers.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 12
+  -
+    question: take notes.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 13
+  -
+    question: write a paper.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 14
+  -
+    question: understand what I read in schoolbooks.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 15
+  -
+    question: ask a question in class.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 16
+  -
+    question: join an after-school club, sport, choir, or other activity.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 17
+  -
+    question: figure out math problems.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 18
+  -
+    question: turn work in on time.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 19
+  -
+    question: go to school every day.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 20
+  -
+    question: work on a group project.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 21
+  -
+    question: get along with classmates.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 22
+  -
+    question: do the best I can on tests.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 23
+  -
+    question: use a computer to write a paper.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 24
+  -
+    question: use the library.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 25
+  -
+    question: use the computer to search the Internet.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 26
+  -
+    question: participate in class.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 27
+  -
+    question: keep up with schoolwork.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 28
+  -
+    question: prepare for a test.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 29
+  -
+    question: feel calm during a test.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 30
+  -
+    question: work with others to complete assignments.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 31
+  -
+    question: help others correct mistakes on their work.
+    ElemRUPage: page_elem_ru_confidence_1
+    elem_ru_question_number: 32
+
+
+  -
+    question: There is someone where I live who I can talk to about important things.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 33
+  -
+    question: There is someone where I live who knows my abilities and skills.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 34
+  -
+    question: There is no one where I live who shares my interests and concerns.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 35
+  -
+    question: I am very close to at least one person where I live.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 36
+  -
+    question: It is hard to talk about my problems with anyone where I live.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 37
+  -
+    question: I can talk about school problems with someone where I live.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 38
+  -
+    question: There is an adult I count on in an emergency.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 39
+  -
+    question: There is an adult where I live who wants me to be successful in my future and career.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 40
+  -
+    question: People I live with want me to succeed in school.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 41
+  -
+    question: People I live with want me to go to college.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 42
+  -
+    question: Teachers here care about their students.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 43
+  -
+    question: There is a teacher here I can talk to about school problems.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 44
+  -
+    question: Teachers here respect me.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 45
+  -
+    question: Teachers here care that I do well in school.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 46
+  -
+    question: There is a teacher here I can talk to about personal problems.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 47
+  -
+    question: I have friends at school.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 48
+  -
+    question: I like my teachers.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 49
+  -
+    question: There are friends I can talk to about important things.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 50
+  -
+    question: There is a friend I can depend on for help.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 51
+  -
+    question: I have no friends I can depend on.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 52
+  -
+    question: I have friends who want me to succeed in school.
+    ElemRUPage: page_elem_ru_connections_1
+    elem_ru_question_number: 53
+
+
+  -
+    question: doing everything at home and at school.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 54
+  -
+    question: meeting friends.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 55
+  -
+    question: taking tests.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 56
+  -
+    question: talking with teachers about class work.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 57
+  -
+    question: worrying about not doing what people expect.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 58
+  -
+    question: asking questions in class.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 59
+  -
+    question: living in my neighborhood.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 60
+  -
+    question: using the school library.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 61
+  -
+    question: getting along with people in my life.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 62
+  -
+    question: getting my class work turned in.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 63
+  -
+    question: having classmates treat me differently in a bad way.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 64
+  -
+    question: doing class work.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 65
+  -
+    question: using computers.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 66
+  -
+    question: worrying about having food.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 67
+  -
+    question: paying for fun things.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 68
+  -
+    question: worrying about buying things I need, like school supplies or clothes.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 69
+  -
+    question: getting my homework turned in to my teacher.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 70
+  -
+    question: worrying about doing well in school.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 71
+  -
+    question: with my teachers stressing me out.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 72
+  -
+    question: with my classmates stressing me out.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 73
+  -
+    question: worrying about being bullied at school.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 74
+  -
+    question: worrying about being bullied outside of school.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 75
+  -
+    question: worrying about being hurt physically and emotionally.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 76
+  -
+    question: having classmates treat me with respect.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 77
+  -
+    question: worrying about how I am doing compared to others in class.
+    ElemRUPage: page_elem_ru_stress_1
+    elem_ru_question_number: 78
+
+
+  -
+    question: "felt tired but couldn't sleep."
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 79
+  -
+    question: 'went between being too sad and too happy, feeling "moody."'
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 80
+  -
+    question: had feelings of being in danger.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 81
+  -
+    question: felt down.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 82
+  -
+    question: felt unsure of myself.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 83
+  -
+    question: had nightmares.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 84
+  -
+    question: snacked more than usual. 
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 85
+  -
+    question: felt hopeless.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 86
+  -
+    question: slept less than usual.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 87
+  -
+    question: got sick a lot.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 88
+  -
+    question: ate too much.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 89
+  -
+    question: broke things when angry.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 90
+  -
+    question: got headaches.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 91
+  -
+    question: felt my heart beat faster.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 92
+  -
+    question: fought with friends.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 93
+  -
+    question: 'felt "cranky."'
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 94
+  -
+    question: lost my temper.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 95
+  -
+    question: 'felt "hyper."'
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 96
+  -
+    question: had trouble sleeping well.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 97
+  -
+    question: had an upset stomach.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 98
+  -
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 99
+    question: had trouble being able to get to sleep.
+  -
+    question: had trouble staying asleep.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 100
+  -
+    question: "didn't have a safe place to sleep."
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 101
+  -
+    question: felt hungrier than usual.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 102
+  -
+    question: became easily upset.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 103
+  -
+    question: felt empty and alone.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 104
+  -
+    question: felt pain in my mouth or had a toothache.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 105
+  -
+    question: had trouble seeing the board in class.
+    ElemRUPage: page_elem_ru_wellbeing_1
+    elem_ru_question_number: 106
+
+
+  -
+    question: I really enjoy school.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 107
+  -
+    question: "I'd feel guilty if I didn't come to school."
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 108
+  -
+    question: so I can make lots and lots of money.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 109
+  -
+    question: school is important for my goals.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 110
+  -
+    question: "so people in my life won't be disappointed."
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 111
+  -
+    question: "it's fun."
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 112
+  -
+    question: I have to.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 113
+  -
+    question: "I don't want to let anyone down."
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 114
+  -
+    question: learning school subjects like reading, writing, math, or science is important to me.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 115
+  -
+    question: "if I don't, I'll get punished."
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 116
+  -
+    question: failing would bother me.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 117
+  -
+    question: there are interesting things to do.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 118
+  -
+    question: I see why learning is important.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 119
+  -
+    question: getting an education is important to me.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 120
+  -
+    question: I have no choice.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 121
+  -
+    question: school is a safe place for me.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 122
+  -
+    question: school is a place I can count on.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 123
+  -
+    question: I get to eat at school.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 124
+  -
+    question: I like the specials like art, music, gym, or library.
+    ElemRUPage: page_elem_ru_motivation_1
+    elem_ru_question_number: 125

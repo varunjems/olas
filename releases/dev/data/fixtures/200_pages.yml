@@ -1,0 +1,366 @@
+QuestionPage:
+  page_ru_3:
+    page: 3
+    type: ru
+    title: IMPORTANCE OF SCHOOL
+    intro: |
+      <p>This section asks about your beliefs about the <strong>importance of school and college</strong>.</p>
+      
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      It is important that I...
+    Scale: scale_agreement
+
+  page_ru_4:
+    page: 4
+    type: ru
+    title: IMPORTANCE OF SCHOOL (continued)
+    intro: |
+      <p>This section asks about your beliefs about the <strong>importance of school and college</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      It is important that I...
+    Scale: scale_agreement
+
+  page_ru_5:
+    page: 5
+    type: ru
+    title: CONFIDENCE
+    intro: |
+      <p>This section asks about the degree of <strong>confidence</strong> you have in completing a variety of activities associated with being a student at your school.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how confident you feel about successfully...
+    Scale: scale_confidence
+
+  page_ru_6:
+    page: 6
+    type: ru
+    title: CONFIDENCE (continued)
+    intro: |
+      <p>This section asks about the degree of <strong>confidence</strong> you have in completing a variety of activities associated with being a student at your school.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how confident you feel about successfully...
+    Scale: scale_confidence
+
+  page_ru_7:
+    page: 7
+    type: ru
+    title: CONFIDENCE (continued)
+    intro: |
+      <p>This section asks about the degree of <strong>confidence</strong> you have in completing a variety of activities associated with being a student at your school.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how confident you feel about successfully...
+    Scale: scale_confidence
+
+  page_ru_8:
+    page: 8
+    type: ru
+    title: CONNECTIONS
+    intro: |
+      <p>This section asks about your <strong>relationships</strong> with family, teachers, and friends.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how much you agree with the statements:
+    Scale: scale_agreement
+
+  page_ru_9:
+    page: 9
+    type: ru
+    title: CONNECTIONS (continued)
+    intro: |
+      <p>This section asks about your <strong>relationships</strong> with family, teachers, and friends.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how much you agree with the statements:
+    Scale: scale_agreement
+
+  page_ru_10:
+    page: 10
+    type: ru
+    title: STRESS
+    intro: |
+      <p>This section asks you about <strong>stress</strong> in your life.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST MONTH:
+    Scale: scale_frequency
+
+  page_ru_11:
+    page: 11
+    type: ru
+    title: STRESS (continued)
+    intro: |
+      <p>This section asks you about <strong>stress</strong> in your life.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST MONTH:
+    Scale: scale_frequency
+
+  page_ru_12:
+    page: 12
+    type: ru
+    title: STRESS (continued)
+    intro: |
+      <p>This section asks you about <strong>stress</strong> in your life.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST MONTH:
+    Scale: scale_frequency
+
+  page_ru_13:
+    page: 13
+    type: ru
+    title: WELL-BEING
+    intro: |
+      <p>This section asks you about your <strong>health and well-being</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST WEEK:
+    Scale: scale_frequency
+
+  page_ru_14:
+    page: 14
+    type: ru
+    title: WELL-BEING (continued)
+    intro: |
+      <p>This section asks you about your <strong>health and well-being</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST WEEK:
+    Scale: scale_frequency
+
+  page_ru_15:
+    page: 15
+    type: ru
+    title: WELL-BEING (continued)
+    intro: |
+      <p>This section asks you about your <strong>health and well-being</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST WEEK:
+    Scale: scale_frequency
+
+  page_ru_16:
+    page: 16
+    type: ru
+    title: MOTIVATION
+    intro: |
+      <p>This section asks about your <strong>motivation</strong> for going to school. Different people have different reasons for going to school; this section asks how much you agree or disagree with each reason given below.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      The reason I keep coming to school is...
+    Scale: scale_agreement
+
+  page_ru_17:
+    page: 17
+    type: ru
+    title: MOTIVATION (continued)
+    intro: |
+      <p>This section asks about your <strong>motivation</strong> for going to school. Different people have different reasons for going to school; this section asks how much you agree or disagree with each reason given below.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      The reason I keep coming to school is...
+    Scale: scale_agreement
+
+
+
+  page_mo_3:
+    page: 3
+    type: mo
+    title: IMPORTANCE OF SCHOOL
+    intro: |
+      <p>This section asks about your beliefs about the <strong>importance of school and college</strong>.</p>
+      
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      It is important that I...
+    Scale: scale_agreement
+
+  page_mo_4:
+    page: 4
+    type: mo
+    title: IMPORTANCE OF SCHOOL (continued)
+    intro: |
+      <p>This section asks about your beliefs about the <strong>importance of school and college</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      It is important that I...
+    Scale: scale_agreement
+
+  page_mo_5:
+    page: 5
+    type: mo
+    title: CONFIDENCE
+    intro: |
+      <p>This section asks about the degree of <strong>confidence</strong> you have in completing a variety of activities associated with being a student at your school.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how confident you feel about successfully...
+    Scale: scale_confidence
+
+  page_mo_6:
+    page: 6
+    type: mo
+    title: CONFIDENCE (continued)
+    intro: |
+      <p>This section asks about the degree of <strong>confidence</strong> you have in completing a variety of activities associated with being a student at your school.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how confident you feel about successfully...
+    Scale: scale_confidence
+
+  page_mo_7:
+    page: 7
+    type: mo
+    title: CONFIDENCE (continued)
+    intro: |
+      <p>This section asks about the degree of <strong>confidence</strong> you have in completing a variety of activities associated with being a student at your school.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how confident you feel about successfully...
+    Scale: scale_confidence
+
+  page_mo_8:
+    page: 8
+    type: mo
+    title: CONNECTIONS
+    intro: |
+      <p>This section asks about your <strong>relationships</strong> with family, teachers, and friends.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how much you agree with the statements:
+    Scale: scale_agreement
+
+  page_mo_9:
+    page: 9
+    type: mo
+    title: CONNECTIONS (continued)
+    intro: |
+      <p>This section asks about your <strong>relationships</strong> with family, teachers, and friends.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how much you agree with the statements:
+    Scale: scale_agreement
+
+  page_mo_10:
+    page: 10
+    type: mo
+    title: STRESS
+    intro: |
+      <p>This section asks you about <strong>stress</strong> in your life.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST MONTH:
+    Scale: scale_frequency
+
+  page_mo_11:
+    page: 11
+    type: mo
+    title: STRESS (continued)
+    intro: |
+      <p>This section asks you about <strong>stress</strong> in your life.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST MONTH:
+    Scale: scale_frequency
+
+  page_mo_12:
+    page: 12
+    type: mo
+    title: STRESS (continued)
+    intro: |
+      <p>This section asks you about <strong>stress</strong> in your life.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST MONTH:
+    Scale: scale_frequency
+
+  page_mo_13:
+    page: 13
+    type: mo
+    title: WELL-BEING
+    intro: |
+      <p>This section asks you about your <strong>health and well-being</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST WEEK:
+    Scale: scale_frequency
+
+  page_mo_14:
+    page: 14
+    type: mo
+    title: WELL-BEING (continued)
+    intro: |
+      <p>This section asks you about your <strong>health and well-being</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST WEEK:
+    Scale: scale_frequency
+
+  page_mo_15:
+    page: 15
+    type: mo
+    title: WELL-BEING (continued)
+    intro: |
+      <p>This section asks you about your <strong>health and well-being</strong>.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      Please choose how often you have experienced each of the following in the PAST WEEK:
+    Scale: scale_frequency
+
+  page_mo_16:
+    page: 16
+    type: mo
+    title: MOTIVATION
+    intro: |
+      <p>This section asks about your <strong>motivation</strong> for going to school. Different people have different reasons for going to school; this section asks how much you agree or disagree with each reason given below.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+      The reason I keep coming to school is...
+    Scale: scale_agreement
+
+  page_mo_17:
+    page: 17
+    type: mo
+    title: MOTIVATION (continued)
+    intro: |
+      <p>This section asks about your <strong>motivation</strong> for going to school. Different people have different reasons for going to school; this section asks how much you agree or disagree with each reason given below.</p>
+      <p>Remember, this is not a test, and there are no right or wrong answers.</p>
+      <p>Choose the column below that best represents your present attitude or opinion.</p>
+    instructions: |
+     The reason I keep coming to school is...
+    Scale: scale_agreement

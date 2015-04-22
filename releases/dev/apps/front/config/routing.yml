@@ -1,0 +1,226 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: landing, action: index }
+
+startAll:
+  url:   /startSurvey
+  param: { module: landing, action: start }
+
+
+# Elementary
+#elem_assessment_top:
+#  url:   /:assessment/sh
+#  param: { module: elem, action: index }
+#  requirements:
+#    assessment: (revvingup|movingon)
+
+#elem_missing_sid:
+#  url:   /:assessment/sh/:school/:page
+#  param: { module: elem, action: studentSignin }
+#  requirements:
+#    assessment: (revvingup|movingon)
+#    page: ([2-9]|1[0-7])
+
+elem_student_signin_sid:
+  url:   /:assessment/sh/:school/:sid
+  param: { module: elem, action: studentSignin }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+#elem_student_signin:
+#  url:   /:assessment/sh/:school
+#  param: { module: elem, action: studentSignin }
+#  requirements:
+#    assessment: (revvingup|movingon)
+
+elem_student_name:
+  url:   /:assessment/sh/:school/1/:sid
+  param: { module: elem, action: studentName }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+elem_student_basics:
+  url:   /:assessment/sh/:school/2/:sid
+  param: { module: elem, action: studentRUSetup }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+elem_ru_student_class:
+  url:   /:assessment/sh/:school/3/:sid
+  param: { module: elem, action: studentRUSetup2 }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+elem_ru_student_demographics:
+  url:   /:assessment/sh/:school/4/:sid
+  param: { module: elem, action: studentRUSetup3 }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+elem_ru_student_intro:
+  url:   /:assessment/sh/:school/5/:sid
+  param: { module: elem, action: studentRUIntro }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+elem_complete_page:
+  url:   /:assessment/sh/:school/12/:sid
+  param: { module: elem, action: completed }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+elem_question_page:
+  url:   /:assessment/sh/:school/:page/:sid
+  param: { module: elem, action: page }
+  requirements:
+    assessment: (revvingup|movingon)
+    page: ([6-9]|1[0-1])
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+
+
+# Original
+#assessment_top:
+#  url:   /:assessment
+#  param: { module: main, action: index }
+#  requirements:
+#    assessment: (revvingup|movingon)
+
+#missing_sid:
+#  url:   /:assessment/:sf_culture/:school/:page
+#  param: { module: main, action: studentSignin }
+#  requirements:
+#    assessment: (revvingup|movingon)
+#    page: ([2-9]|1[0-7])
+#    sf_culture: (?:en|es)
+
+student_signin_sid:
+  url:   /:assessment/:sf_culture/:school/:sid
+  param: { module: main, action: studentSignin }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+    sf_culture: (?:en|es)
+  options:
+    segment_separators: [/]
+
+#student_signin:
+#  url:   /:assessment/:sf_culture/:school
+#  param: { module: main, action: studentSignin }
+#  requirements:
+#    assessment: (revvingup|movingon)
+#    sf_culture: (?:en|es)
+
+#language_choice:
+#  url:   /:assessment/:school
+#  param: { module: main, action: languageChoice }
+#  requirements:
+#    assessment: (revvingup|movingon)
+
+language_choice_sid:
+  url:   /:assessment/:school/:sid
+  param: { module: main, action: languageChoice }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+  options:
+    segment_separators: [/]
+
+
+student_name:
+  url:   /:assessment/:sf_culture/:school/1/:sid
+  param: { module: main, action: studentName }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+    sf_culture: (?:en|es)
+  options:
+    segment_separators: [/]
+
+ru_student_setup:
+  url:   /:assessment/:sf_culture/:school/2/:sid
+  param: { module: main, action: studentRUSetup }
+  requirements:
+    assessment: (revvingup)
+    sid: '[a-z0-9:-]{26,73}'
+    sf_culture: (?:en|es)
+  options:
+    segment_separators: [/]
+
+mo_student_setup:
+  url:   /:assessment/:sf_culture/:school/2/:sid
+  param: { module: main, action: studentMOSetup }
+  requirements:
+    assessment: (movingon)
+    sid: '[a-z0-9:-]{26,73}'
+    sf_culture: (?:en|es)
+  options:
+    segment_separators: [/]
+
+# Replaced by two above, but used to generate the route
+student_setup:
+  url:   /:assessment/:sf_culture/:school/2/:sid
+  param: { module: main, action: studentRUSetup }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+    sf_culture: (?:en|es)
+  options:
+    segment_separators: [/]
+
+complete_page:
+  url:   /:assessment/:sf_culture/:school/18/:sid
+  param: { module: main, action: completed }
+  requirements:
+    assessment: (revvingup|movingon)
+    sid: '[a-z0-9:-]{26,73}'
+    sf_culture: (?:en|es)
+  options:
+    segment_separators: [/]
+
+question_page:
+  url:   /:assessment/:sf_culture/:school/:page/:sid
+  param: { module: main, action: page }
+  requirements:
+    assessment: (revvingup|movingon)
+    page: ([3-9]|1[0-7])
+    sid: '[a-z0-9:-]{26,73}'
+    sf_culture: (?:en|es)
+  options:
+    segment_separators: [/]
+
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+
+#default:
+#  url:   /:module/:action/*

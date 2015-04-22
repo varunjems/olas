@@ -1,0 +1,99 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           School
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          school
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+
+      fields:
+        shrads_id: { label: "Shrads ID" }
+        school_id: { label: "School ID" }
+        district_id: { label: "District ID" }
+        url_identifier: { label: "URL Ending" }
+        ru_enabled: { label: "RevvingUp Enabled" }
+        mo_enabled: { label: "MovingOn Enabled" }
+        ruStatus: { label: "Revving Up" }
+        ruDates: { label: "" }
+        ruCount: { label: "" }
+        moStatus: { label: "Moving On" }
+        moDates: { label: "" }
+        moCount: { label: "" }
+        elem_ru_enabled: { label: "Elem. RU Enabled" }
+        elemRuStatus: { label: "Elementary RU" }
+        elemRuDates: { label: "" }
+        elemRuCount: { label: "" }
+        elem_mo_enabled: { label: "Elem. MO Enabled" }
+        elemMoStatus: { label: "Elementary MO" }
+        elemMoDates: { label: "" }
+        elemMoCount: { label: "" }
+
+      list:
+        title:          School List
+        display:        [name, shrads_id, url_identifier, _ruStatus, _moStatus, _elemRuStatus, _elemMoStatus]
+        max_per_page:   25
+        sort:           [name, asc]
+        object_actions:
+          _edit:        ~
+          _delete:      { label: Remove Account }
+        batch_actions:
+          #_delete:      { label: Remove Accounts }
+          purgeRuData:  { label: Purge RU Data }
+          purgeMoData:  { label: Purge MO Data }
+          purgeElemRuData:  { label: Purge Elem RU Data }
+          enableRu:     { label: Enable RU Pages }
+          enableMo:     { label: Enable MO Pages }
+          enableElemRu:     { label: Enable Elem RU Pages }
+          enableElemMo:     { label: Enable Elem MO Pages }
+          disableRu:    { label: Disable RU Pages }
+          disableMo:    { label: Disable MO Pages }
+          disableElemRu:    { label: Disable Elem RU Pages }
+          disableElemMo:    { label: Disable Elem MO Pages }
+        actions:
+          _new:         ~
+
+      filter:
+        display: [name, shrads_id, url_identifier, school_id, district_id]
+
+      form:
+        display:
+          "School Information": [name, school_id, district_id, shrads_id]
+          "Usage Information": [url_identifier, ru_enabled, mo_enabled, elem_ru_enabled, elem_mo_enabled]
+        fields:
+          name:
+            help: "Descriptive name used in exported spreadsheets"
+          school_id:
+            help: "School identifier in exported spreadsheets.  Up to 10 characters accepted."
+          district_id:
+            help: "District identifier in exported spreadsheets.  Up to 10 characters accepted."
+          shrads_id:
+            help: "SHRADS Id used for sending data to SHRADS."
+          url_identifier:
+            help: "Last part of URL used to access the product by students.  Must be unique."
+          ru_enabled:
+            help: "Check to make Revving Up pages available for use."
+          mo_enabled:
+            help: "Check to make Moving On pages available for use."
+          elem_ru_enabled:
+            help: "Check to make RU Elementary Assessment pages available for use."
+          elem_mo_enabled:
+            help: "Check to make MO Elementary Assessment pages available for use."
+
+      edit:
+        title: Edit "%%name%%" School
+        actions:
+          _list:         ~
+
+      new:
+        title: "Add a New School"
+        actions:
+          _list:         ~
+          _save_and_add: { label: Create Start Pages }

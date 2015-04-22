@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/functional/fixtures/plugins/sfAutoloadPlugin/test/unit/nested
+END
+NestedUnitTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/functional/fixtures/plugins/sfAutoloadPlugin/test/unit/nested/NestedUnitTest.php
+END

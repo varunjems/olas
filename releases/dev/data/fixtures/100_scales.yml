@@ -1,0 +1,11 @@
+Scale:
+  scale_ethnicity:
+    description: "Ethnicity"
+  scale_gender:
+    description: "Gender"
+  scale_agreement:
+    description: "Agreement"
+  scale_confidence:
+    description: "Confidence"
+  scale_frequency:
+    description: "Frequency"

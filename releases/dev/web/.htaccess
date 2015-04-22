@@ -1,0 +1,33 @@
+Options +FollowSymLinks +ExecCGI
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # uncomment the following line, if you are having trouble
+  # getting no_script_name to work
+  #RewriteBase /olas/
+
+  RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+  RewriteRule ^(.*) - [E=BASE:%1]
+
+# Added default .htaccess to subdir and so don't need this
+#  # redirect to the second app if the address starts with admin
+#  RewriteRule ^(admin/([^.]+))$ /admin/index.php/$1 [QSA,L]
+#  RewriteRule ^(admin/*)$ /admin/index.php [QSA,L]
+
+  # we skip all files with .something
+  #RewriteCond %{REQUEST_URI} \..+$
+  #RewriteCond %{REQUEST_URI} !\.html$
+  #RewriteRule .* - [L]
+
+  # we check if the .html version is here (caching)
+  RewriteRule ^$ index.html [QSA]
+  RewriteRule ^([^.]+)$ $1.html [QSA]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # no, so we redirect to our front web controller
+  #RewriteRule ^(.*)$ index.php [QSA,L]
+  RewriteRule .? %{ENV:BASE}/index.php [L]
+</IfModule>

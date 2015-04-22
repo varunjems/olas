@@ -1,0 +1,41 @@
+ScaleValue:
+  scale_elem_agreement_1:
+    Scale: scale_elem_agreement
+    value: 1
+    description: Strongly Disagree
+  scale_elem_agreement_2:
+    Scale: scale_elem_agreement
+    value: 2
+    description: Disagree
+  scale_elem_agreement_3:
+    Scale: scale_elem_agreement
+    value: 3
+    description: "Don't Know"
+  scale_elem_agreement_4:
+    Scale: scale_elem_agreement
+    value: 4
+    description: Agree
+  scale_elem_agreement_5:
+    Scale: scale_elem_agreement
+    value: 5
+    description: Strongly Agree
+  scale_elem_confidence_1:
+    Scale: scale_elem_confidence
+    value: 1
+    description: not confident at all
+  scale_elem_confidence_2:
+    Scale: scale_elem_confidence
+    value: 2
+    description: mostly not confident
+  scale_elem_confidence_3:
+    Scale: scale_elem_confidence
+    value: 3
+    description: sort of confident
+  scale_elem_confidence_4:
+    Scale: scale_elem_confidence
+    value: 4
+    description: mostly confident
+  scale_elem_confidence_5:
+    Scale: scale_elem_confidence
+    value: 5
+    description: very confident

@@ -1,0 +1,31 @@
+# Project files
+/cache/*
+/log/*
+#/web/*_dev.php
+/web/uploads/*
+/config/databases.yml
+
+# SCM files
+.arch-params
+.bzr
+_darcs
+.git
+.hg
+.monotone
+.svn
+CVS
+
+# Deployment files
+/Capfile
+/config/deploy.rb
+
+# IDE files
+/.project
+/nbproject
+
+# PEAR files for plugins
+/plugins/.channels
+/plugins/.registry
+
+#Other files
+.*.swp

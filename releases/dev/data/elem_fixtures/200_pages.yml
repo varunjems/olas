@@ -1,0 +1,70 @@
+QuestionPage:
+  page_elem_ru_school_1:
+    page: 6
+    type: elem_ru
+    title: IMPORTANCE OF SCHOOL
+    intro: |
+      <p class="intro">This section asks what you think about school and college.</p> <p class="choices">To answer, you can pick:</p>
+    instructions: |
+      <h2 class="instructions">It is important that I...</h2>
+    Scale: scale_elem_agreement
+
+
+
+  page_elem_ru_confidence_1:
+    page: 7
+    type: elem_ru
+    title: CONFIDENCE
+    intro: |
+      <p class="intro">This section asks about your confidence with school activities. Feeling confident means you believe in yourself.</p> <p class="choices">To answer, you can pick:</p>
+    instructions: |
+      <h2 class="instructions">I feel confident<br /> that I can successfully...</h2>
+    Scale: scale_elem_confidence
+
+
+
+  page_elem_ru_connections_1:
+    page: 8
+    type: elem_ru
+    title: CONNECTIONS
+    intro: |
+      <p class="intro">This section asks how you feel about family, teachers, and friends.</p> <p class="choices">To answer, you can pick:</p>
+    instructions: ""
+    Scale: scale_elem_agreement
+
+
+
+  page_elem_ru_stress_1:
+    page: 9
+    type: elem_ru
+    title: STRESS
+    intro: |
+      <p class="intro">This section asks about feeling stressed, like things are hard.</p> <p class="choices">To answer, you can pick:</p>
+    instructions: |
+      <h2 class="instructions">In the past few weeks,<br /> I had a hard time...</h2>
+    Scale: scale_elem_agreement
+
+
+
+
+  page_elem_ru_wellbeing_1:
+    page: 10
+    type: elem_ru
+    title: WELL-BEING
+    intro: |
+      <p class="intro">This section asks about your health and moods.</p> <p class="choices">To answer, you can pick:</p>
+    instructions: |
+      <h2 class="instructions">In the past week, I...</h2>
+    Scale: scale_elem_agreement
+
+
+
+  page_elem_ru_motivation_1:
+    page: 11
+    type: elem_ru
+    title: MOTIVATION
+    intro: |
+      <p class="intro">This section asks about why you go to school.</p> <p class="choices">To answer, you can pick:</p>
+    instructions: |
+      <h2 class="instructions">The reason I keep<br /> coming to school is...</h2>
+    Scale: scale_elem_agreement

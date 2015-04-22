@@ -1,0 +1,15 @@
+To upgrade OLAS from version 1.1 to version 1.2:
+
+- The directory 20121211113000 should be placed under the existing
+  releases directory
+
+- Verify that the symbolic link for log/ resolves to the shared/log/ directory
+
+- Verify that the file config/databases.yml resolves to the existing version
+  in the shared/config/ directory
+
+- Apply the update_1.2.sql script using mysql
+
+    mysql -u USERNAME -p -h HOSTNAME DATABASE_NAME < scripts/update_1.2.sql
+
+- Change the symbolic link "current" to point to releases/20121211113000

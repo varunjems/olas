@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/unit/user
+END
+sfBasicSecurityUserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/unit/user/sfBasicSecurityUserTest.php
+END
+sfUserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/unit/user/sfUserTest.php
+END

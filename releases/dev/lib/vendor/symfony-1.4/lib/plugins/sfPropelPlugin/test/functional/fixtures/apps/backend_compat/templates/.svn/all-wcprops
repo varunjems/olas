@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/30051/tags/RELEASE_1_4_6/lib/plugins/sfPropelPlugin/test/functional/fixtures/apps/backend_compat/templates
+END
+layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/30051/tags/RELEASE_1_4_6/lib/plugins/sfPropelPlugin/test/functional/fixtures/apps/backend_compat/templates/layout.php
+END

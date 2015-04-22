@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/functional/fixtures/apps/frontend/modules/sfConfigPlugin/config
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/functional/fixtures/apps/frontend/modules/sfConfigPlugin/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/30051/tags/RELEASE_1_4_6/test/functional/fixtures/apps/frontend/modules/sfConfigPlugin/config/view.yml
+END

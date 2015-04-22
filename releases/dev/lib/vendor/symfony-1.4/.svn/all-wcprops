@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/30053/tags/RELEASE_1_4_6
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/30051/tags/RELEASE_1_4_6/LICENSE
+END
+package.xml.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/30051/tags/RELEASE_1_4_6/package.xml.tmpl
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/30051/tags/RELEASE_1_4_6/CHANGELOG
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/30051/tags/RELEASE_1_4_6/COPYRIGHT
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/30051/tags/RELEASE_1_4_6/README
+END

@@ -1,0 +1,6 @@
+School:
+  school_agape:
+    name: Test school 1
+    school_id: 1000
+    district_id: 1000
+    url_identifier: agape

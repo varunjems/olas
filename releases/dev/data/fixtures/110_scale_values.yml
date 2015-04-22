@@ -1,0 +1,93 @@
+ScaleValue:
+  scale_ethnicity_1:
+    Scale: scale_ethnicity
+    value: 1
+    description: White
+  scale_ethnicity_2:
+    Scale: scale_ethnicity
+    value: 2
+    description: African American/Black
+  scale_ethnicity_3:
+    Scale: scale_ethnicity
+    value: 3
+    description: American Indian
+  scale_ethnicity_4:
+    Scale: scale_ethnicity
+    value: 4
+    description: Asian/Pacific Islander
+  scale_ethnicity_5:
+    Scale: scale_ethnicity
+    value: 5
+    description: Hispanic and/or Latino
+  scale_ethnicity_6:
+    Scale: scale_ethnicity
+    value: 6
+    description: Other/More than One
+  scale_gender_1:
+    Scale: scale_gender
+    value: 1
+    description: Male
+  scale_gender_2:
+    Scale: scale_gender
+    value: 2
+    description: Female
+  scale_agreement_1:
+    Scale: scale_agreement
+    value: 1
+    description: Strongly Disagree
+  scale_agreement_2:
+    Scale: scale_agreement
+    value: 2
+    description: Disagree
+  scale_agreement_3:
+    Scale: scale_agreement
+    value: 3
+    description: Unsure / Undecided
+  scale_agreement_4:
+    Scale: scale_agreement
+    value: 4
+    description: Agree
+  scale_agreement_5:
+    Scale: scale_agreement
+    value: 5
+    description: Strongly Agree
+  scale_confidence_1:
+    Scale: scale_confidence
+    value: 1
+    description: Not Confident at All
+  scale_confidence_2:
+    Scale: scale_confidence
+    value: 2
+    description: Mostly Not Confident
+  scale_confidence_3:
+    Scale: scale_confidence
+    value: 3
+    description: Somewhat Confident
+  scale_confidence_4:
+    Scale: scale_confidence
+    value: 4
+    description: Mostly Confident
+  scale_confidence_5:
+    Scale: scale_confidence
+    value: 5
+    description: Extremely Confident
+  scale_frequency_1:
+    Scale: scale_frequency
+    value: 1
+    description: Almost Never
+  scale_frequency_2:
+    Scale: scale_frequency
+    value: 2
+    description: Not Very Often
+  scale_frequency_3:
+    Scale: scale_frequency
+    value: 3
+    description: Somewhat Often
+  scale_frequency_4:
+    Scale: scale_frequency
+    value: 4
+    description: Very Often
+  scale_frequency_5:
+    Scale: scale_frequency
+    value: 5
+    description: Almost Always

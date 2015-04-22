@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2013-11-15T23:45:46Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Next</source>
+        <target>Siguiente</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Student ID Number</source>
+        <target>Número de identificación de estudiante</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>You didn't answer all the items on this page.</source>
+        <target>No contestaste todos los puntos de esta página.</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Please complete all items or click Next to continue.</source>
+        <target>Por favor contesta todos los puntos o haz clic en Siguiente para continuar.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Please complete all items or click Finished.</source>
+        <target>Por favor contesta todos los puntos o haz clic en Finalizado.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Page %page% of %pages%</source>
+        <target>Página %page% de %pages%</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Previous</source>
+        <target>Anterior</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Finished</source>
+        <target>Finalizado</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Click "Previous" or "%next%" to save your answers.</source>
+        <target>Haz clic en "Anterior" o "%next%" para guardar tus respuestas.</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Click "Finished" if all your answers are final and you are ready to submit %assessment%.</source>
+        <target>Haz clic en "Finalizado" si todas tus respuestas son definitivas y estás listo para enviar el cuestionario %assessment%</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Revving Up</source>
+        <target>¡Alístate!</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Moving On</source>
+        <target>¡Adelante!</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Please enter your Student ID Number.</source>
+        <target>Por favor introduce tu número de identificación de estudiante.</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Please re-enter your Student ID Number.</source>
+        <target>Por favor vuelve a introducir tu número de identificación de estudiante.</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Class Number</source>
+        <target>Número de clase</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Race/Ethnicity</source>
+        <target>Raza/Origen étnico</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Gender</source>
+        <target>Sexo</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Thank you for completing %assessment%.</source>
+	<target>Gracias por contestar %assessment%</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>New student? %link% to begin %assessment%.</source>
+	<target>¿Eres estudiante nuevo? %link% para comenzar %assessment%</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Click here</source>
+	<target>Haz clic aquí</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>You must enter a Student ID Number before continuing.</source>
+	<target>Antes de continuar debes introducir un número de identificación de estudiante.</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Your Student ID must be numeric and cannot exceed 10 digits.</source>
+	<target>Tu número de identificación de estudiante debe ser numérico y no puede tener más de 10 dígitos.</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>You entered only zeros. Please enter a Student ID Number in the correct format.</source>
+	<target>Introdujiste puros ceros. Por favor introduce un número de identificación de estudiante con el formato correcto.</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>You entered two different Student ID Numbers.</source>
+	<target>Introdujiste dos números de identificación de estudiante distintos.</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>You must enter a Class Number before proceeding.</source>
+	<target>Antes de continuar, debes introducir un número de clase.</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Please enter a number between 1 and 99.</source>
+	<target>Por favor introduce un número entre el 1 y 99.</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Please enter the number of Success Highways lessons completed before proceeding.</source>
+	<target>Antes de continuar, debes introducir la cantidad de lecciones de Caminos al Éxito que has concluido.</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Please enter a number between 0 and 15.</source>
+	<target>Por favor introduce un número entre el 0 y 15.</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Please contact your proctor for help.</source>
+	<target>Por favor comunícate con el supervisor para obtener ayuda.</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>You have already completed %assessment% or there is a problem with your Student ID Number.</source>
+	<target>Ya contestaste %assessment% o existe un problema con tu número de identificación de estudiante.</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>You have started but not completed %assessment%.</source>
+	<target>Empezaste %assessment%, pero no lo terminaste.</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Click OK to continue.</source>
+	<target>Haz clic en Aceptar para continuar.</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>OK</source>
+	<target>Aceptar</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>White</source>
+	<target>Blanco</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>African American/Black</source>
+	<target>Afroamericano/Negro</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>American Indian</source>
+	<target>Indio americano</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Asian/Pacific Islander</source>
+	<target>Asiático/de las islas del Pacífico</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Hispanic and/or Latino</source>
+	<target>Hispano y/o latino</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Other/More than One</source>
+	<target>Otro/más de uno</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Male</source>
+	<target>Masculino</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Female</source>
+	<target>Femenino</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Number of Success Highways Lessons Completed</source>
+	<target>Número de lecciones completados del programa Success Highways</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Please enter your First Name.</source>
+	<target>Por favor introduzca su Primer Nombre.</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Please enter your Last Name.</source>
+	<target>Por favor introduzca su Apellido.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>You must enter a First and Last Name before continuing.</source>
+	<target>Debe introducir un nombre y apellido antes de continuar.</target>
+      </trans-unit>
+      <trans-unit id="47">
+	      <source>Please enter letters only. Each name must contain 2-28 characters.&lt;br /&gt;Names must not contain special characters (such as @ or &amp;) or numbers.</source>
+	<target>Por favor únicamente introduzca letras. Cada nombre tiene que contener 2-28 caracteres. Los nombres no deben incluir caracteres especiales (como @ ó &amp;) o números.</target>
+      </trans-unit>
+      <trans-unit id="48">
+            <source>Please enter your first and last name or click Next to continue.</source>
+            <target>Por favor, ingrese su nombre y apellido o haga clic en Siguiente para continuar.</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Level 2, Form A</source>
+	<target>Nivel 2, Forma A</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Level 2, Form B</source>
+	<target>Nivel 2, Forma B</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>the Clear Path Survey</source>
+        <target>the Clear Path Survey</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

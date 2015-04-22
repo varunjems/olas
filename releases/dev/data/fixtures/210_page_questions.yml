@@ -1,0 +1,668 @@
+Question:
+  question_1:
+    question: finish school.
+    RUPage: page_ru_3
+    ru_question_number: 1
+    MOPage: page_mo_4
+    mo_question_number: 6
+  question_2:
+    question: do well in school.
+    RUPage: page_ru_3
+    ru_question_number: 2
+    MOPage: page_mo_3
+    mo_question_number: 1
+  question_3:
+    question: go to college.
+    RUPage: page_ru_3
+    ru_question_number: 3
+    MOPage: page_mo_4
+    mo_question_number: 8
+  question_4:
+    question: do well in college.
+    RUPage: page_ru_3
+    ru_question_number: 4
+    MOPage: page_mo_3
+    mo_question_number: 3
+  question_5:
+    question: make sure my teachers know that I want to do well in school.
+    RUPage: page_ru_3
+    ru_question_number: 5
+    MOPage: page_mo_3
+    mo_question_number: 4
+
+  question_6:
+    question: find out about colleges.
+    RUPage: page_ru_4
+    ru_question_number: 6
+    MOPage: page_mo_3
+    mo_question_number: 5
+  question_7:
+    question: learn how to be successful in college.
+    RUPage: page_ru_4
+    ru_question_number: 7
+    MOPage: page_mo_4
+    mo_question_number: 7
+  question_8:
+    question: get good grades in school.
+    RUPage: page_ru_4
+    ru_question_number: 8
+    MOPage: page_mo_3
+    mo_question_number: 2
+  question_9:
+    question: learn how to be successful in school.
+    RUPage: page_ru_4
+    ru_question_number: 9
+    MOPage: page_mo_4
+    mo_question_number: 9
+  question_10:
+    question: get a college degree.
+    RUPage: page_ru_4
+    ru_question_number: 10
+    MOPage: page_mo_4
+    mo_question_number: 10
+
+  question_11:
+    question: making new friends at school.
+    RUPage: page_ru_5
+    ru_question_number: 11
+    MOPage: page_mo_6
+    mo_question_number: 23
+  question_12:
+    question: talking to teachers about homework.
+    RUPage: page_ru_5
+    ru_question_number: 12
+    MOPage: page_mo_5
+    mo_question_number: 11
+  question_13:
+    question: taking good notes in class.
+    RUPage: page_ru_5
+    ru_question_number: 13
+    MOPage: page_mo_6
+    mo_question_number: 21
+  question_14:
+    question: writing a paper for English class.
+    RUPage: page_ru_5
+    ru_question_number: 14
+    MOPage: page_mo_5
+    mo_question_number: 14
+  question_15:
+    question: joining a sports activity.
+    RUPage: page_ru_5
+    ru_question_number: 15
+    MOPage: page_mo_5
+    mo_question_number: 15
+  question_16:
+    question: understanding what you read in your schoolbooks.
+    RUPage: page_ru_5
+    ru_question_number: 16
+    MOPage: page_mo_6
+    mo_question_number: 18
+  question_17:
+    question: asking a question in class.
+    RUPage: page_ru_5
+    ru_question_number: 17
+    MOPage: page_mo_6
+    mo_question_number: 19
+
+
+  question_18:
+    question: joining an after-school club.
+    RUPage: page_ru_6
+    ru_question_number: 18
+    MOPage: page_mo_5
+    mo_question_number: 17
+  question_19:
+    question: correctly figuring out math problems.
+    RUPage: page_ru_6
+    ru_question_number: 19
+    MOPage: page_mo_6
+    mo_question_number: 22
+  question_20:
+    question: turning in your assignments on time.
+    RUPage: page_ru_6
+    ru_question_number: 20
+    MOPage: page_mo_6
+    mo_question_number: 24
+  question_21:
+    question: going to class every day.
+    RUPage: page_ru_6
+    ru_question_number: 21
+    MOPage: page_mo_5
+    mo_question_number: 12
+  question_22:
+    question: working on a group class project.
+    RUPage: page_ru_6
+    ru_question_number: 22
+    MOPage: page_mo_7
+    mo_question_number: 25
+  question_23:
+    question: getting along with classmates.
+    RUPage: page_ru_6
+    ru_question_number: 23
+    MOPage: page_mo_5
+    mo_question_number: 16
+  question_24:
+    question: doing well on your tests.
+    RUPage: page_ru_6
+    ru_question_number: 24
+    MOPage: page_mo_7
+    mo_question_number: 26
+
+  question_25:
+    question: using a computer to write a paper.
+    RUPage: page_ru_7
+    ru_question_number: 25
+    MOPage: page_mo_7
+    mo_question_number: 27
+  question_26:
+    question: using the library.
+    RUPage: page_ru_7
+    ru_question_number: 26
+    MOPage: page_mo_7
+    mo_question_number: 28
+  question_27:
+    question: using a computer to search the Web.
+    RUPage: page_ru_7
+    ru_question_number: 27
+    MOPage: page_mo_7
+    mo_question_number: 29
+  question_28:
+    question: participating in class discussions.
+    RUPage: page_ru_7
+    ru_question_number: 28
+    MOPage: page_mo_7
+    mo_question_number: 30
+  question_29:
+    question: keeping up to date on schoolwork.
+    RUPage: page_ru_7
+    ru_question_number: 29
+    MOPage: page_mo_7
+    mo_question_number: 31
+  question_30:
+    question: preparing for a test.
+    RUPage: page_ru_7
+    ru_question_number: 30
+    MOPage: page_mo_7
+    mo_question_number: 32
+  question_31:
+    question: relaxing during a test.
+    RUPage: page_ru_7
+    ru_question_number: 31
+    MOPage: page_mo_6
+    mo_question_number: 20
+  question_32:
+    question: studying with others for a test.
+    RUPage: page_ru_7
+    ru_question_number: 32
+    MOPage: page_mo_5
+    mo_question_number: 13
+
+
+  question_33:
+    question: There is a family member who I can talk to about important decisions in my life.
+    RUPage: page_ru_8
+    ru_question_number: 33
+    MOPage: page_mo_8
+    mo_question_number: 34
+  question_34:
+    question: Members of my family recognize my abilities and skills.
+    RUPage: page_ru_8
+    ru_question_number: 34
+    MOPage: page_mo_8
+    mo_question_number: 37
+  question_35:
+    question: There is <strong>no one</strong> in my family who shares my interests and concerns.
+    RUPage: page_ru_8
+    ru_question_number: 35
+    MOPage: page_mo_8
+    mo_question_number: 38
+  question_36:
+    question: I am very close with at least one other member of my family.
+    RUPage: page_ru_8
+    ru_question_number: 36
+    MOPage: page_mo_8
+    mo_question_number: 39
+  question_37:
+    question: There is <strong>no one</strong> in my family with whom I feel comfortable talking about my problems.
+    RUPage: page_ru_8
+    ru_question_number: 37
+    MOPage: page_mo_9
+    mo_question_number: 44
+  question_38:
+    question: I can talk about school issues or concerns with a family member.
+    RUPage: page_ru_8
+    ru_question_number: 38
+    MOPage: page_mo_9
+    mo_question_number: 41
+  question_39:
+    question: There are family members I can count on in an emergency.
+    RUPage: page_ru_8
+    ru_question_number: 39
+    MOPage: page_mo_9
+    mo_question_number: 42
+  question_40:
+    question: Teachers here care about their students.
+    RUPage: page_ru_8
+    ru_question_number: 40
+    MOPage: page_mo_8
+    mo_question_number: 33
+
+  question_41:
+    question: There is a teacher here I can go see to talk about academic problems.
+    RUPage: page_ru_9
+    ru_question_number: 41
+    MOPage: page_mo_9
+    mo_question_number: 43
+  question_42:
+    question: Teachers here respect me.
+    RUPage: page_ru_9
+    ru_question_number: 42
+    MOPage: page_mo_8
+    mo_question_number: 35
+  question_43:
+    question: Teachers here are interested in my success.
+    RUPage: page_ru_9
+    ru_question_number: 43
+    MOPage: page_mo_9
+    mo_question_number: 45
+  question_44:
+    question: There is a teacher here I can talk to about a personal problem.
+    RUPage: page_ru_9
+    ru_question_number: 44
+    MOPage: page_mo_9
+    mo_question_number: 46
+  question_45:
+    question: I have friends here at school.
+    RUPage: page_ru_9
+    ru_question_number: 45
+    MOPage: page_mo_8
+    mo_question_number: 40
+  question_46:
+    question: There are friends I can talk to about important decisions.
+    RUPage: page_ru_9
+    ru_question_number: 46
+    MOPage: page_mo_9
+    mo_question_number: 47
+  question_47:
+    question: There is a friend I can depend on for help.
+    RUPage: page_ru_9
+    ru_question_number: 47
+    MOPage: page_mo_8
+    mo_question_number: 36
+  question_48:
+    question: I have <strong>no</strong> friends I can depend on.
+    RUPage: page_ru_9
+    ru_question_number: 48
+    MOPage: page_mo_9
+    mo_question_number: 48
+
+
+  question_49:
+    question: Difficulty trying to fulfill my responsibilities at home and at school.
+    RUPage: page_ru_10
+    ru_question_number: 49
+    MOPage: page_mo_10
+    mo_question_number: 50
+  question_50:
+    question: Difficulty trying to meet friends.
+    RUPage: page_ru_10
+    ru_question_number: 50
+    MOPage: page_mo_10
+    mo_question_number: 51
+  question_51:
+    question: Difficulty taking tests.
+    RUPage: page_ru_10
+    ru_question_number: 51
+    MOPage: page_mo_10
+    mo_question_number: 53
+  question_52:
+    question: Difficulty talking with teachers about school work.
+    RUPage: page_ru_10
+    ru_question_number: 52
+    MOPage: page_mo_10
+    mo_question_number: 54
+  question_53:
+    question: A fear of failing to meet family expectations.
+    RUPage: page_ru_10
+    ru_question_number: 53
+    MOPage: page_mo_10
+    mo_question_number: 55
+  question_54:
+    question: Difficulty asking questions in class.
+    RUPage: page_ru_10
+    ru_question_number: 54
+    MOPage: page_mo_11
+    mo_question_number: 56
+  question_55:
+    question: Difficulty living in the local community.
+    RUPage: page_ru_10
+    ru_question_number: 55
+    MOPage: page_mo_11
+    mo_question_number: 58
+
+  question_56:
+    question: Difficulty understanding how to use the school library.
+    RUPage: page_ru_11
+    ru_question_number: 56
+    MOPage: page_mo_11
+    mo_question_number: 59
+  question_57:
+    question: Difficulty handling relationships.
+    RUPage: page_ru_11
+    ru_question_number: 57
+    MOPage: page_mo_11
+    mo_question_number: 60
+  question_58:
+    question: Difficulty handling your schoolwork load.
+    RUPage: page_ru_11
+    ru_question_number: 58
+    MOPage: page_mo_10
+    mo_question_number: 49
+  question_59:
+    question: Difficulty with classmates treating you differently than they treat each other.
+    RUPage: page_ru_11
+    ru_question_number: 59
+    MOPage: page_mo_11
+    mo_question_number: 62
+  question_60:
+    question: Difficulty writing papers for class.
+    RUPage: page_ru_11
+    ru_question_number: 60
+    MOPage: page_mo_11
+    mo_question_number: 63
+  question_61:
+    question: Difficulty learning how to use computers.
+    RUPage: page_ru_11
+    ru_question_number: 61
+    MOPage: page_mo_12
+    mo_question_number: 64
+  question_62:
+    question: Difficulty paying for school supplies.
+    RUPage: page_ru_11
+    ru_question_number: 62
+    MOPage: page_mo_12
+    mo_question_number: 65
+  question_63:
+    question: Money difficulties due to owing money to others.
+    RUPage: page_ru_11
+    ru_question_number: 63
+    MOPage: page_mo_12
+    mo_question_number: 66
+
+  question_64:
+    question: Difficulty paying for food.
+    RUPage: page_ru_12
+    ru_question_number: 64
+    MOPage: page_mo_11
+    mo_question_number: 61
+  question_65:
+    question: Difficulty paying for recreation and entertainment.
+    RUPage: page_ru_12
+    ru_question_number: 65
+    MOPage: page_mo_10
+    mo_question_number: 52
+  question_66:
+    question: Difficulty due to your family experiencing money problems.
+    RUPage: page_ru_12
+    ru_question_number: 66
+    MOPage: page_mo_12
+    mo_question_number: 67
+  question_67:
+    question: Difficulty getting your homework done on time.
+    RUPage: page_ru_12
+    ru_question_number: 67
+    MOPage: page_mo_12
+    mo_question_number: 68
+  question_68:
+    question: Difficulty because of feeling a need to perform well in school.
+    RUPage: page_ru_12
+    ru_question_number: 68
+    MOPage: page_mo_11
+    mo_question_number: 57
+  question_69:
+    question: Difficulty from teachers.
+    RUPage: page_ru_12
+    ru_question_number: 69
+    MOPage: page_mo_12
+    mo_question_number: 69
+  question_70:
+    question: Difficulty from classmates.
+    RUPage: page_ru_12
+    ru_question_number: 70
+    MOPage: page_mo_12
+    mo_question_number: 70
+
+
+  question_71:
+    question: Being tired but unable to sleep.
+    RUPage: page_ru_13
+    ru_question_number: 71
+    MOPage: page_mo_14
+    mo_question_number: 80
+  question_72:
+    question: Mood swings.
+    RUPage: page_ru_13
+    ru_question_number: 72
+    MOPage: page_mo_13
+    mo_question_number: 72
+  question_73:
+    question: Feelings of danger.
+    RUPage: page_ru_13
+    ru_question_number: 73
+    MOPage: page_mo_13
+    mo_question_number: 75
+  question_74:
+    question: Feeling depressed.
+    RUPage: page_ru_13
+    ru_question_number: 74
+    MOPage: page_mo_13
+    mo_question_number: 76
+  question_75:
+    question: Feelings of self-doubt.
+    RUPage: page_ru_13
+    ru_question_number: 75
+    MOPage: page_mo_13
+    mo_question_number: 77
+  question_76:
+    question: Nightmares.
+    RUPage: page_ru_13
+    ru_question_number: 76
+    MOPage: page_mo_14
+    mo_question_number: 81
+  question_77:
+    question: Snacking more than usual.
+    RUPage: page_ru_13
+    ru_question_number: 77
+    MOPage: page_mo_13
+    mo_question_number: 73
+
+  question_78:
+    question: Feeling hopeless.
+    RUPage: page_ru_14
+    ru_question_number: 78
+    MOPage: page_mo_13
+    mo_question_number: 71
+  question_79:
+    question: Sleeping less than usual at night.
+    RUPage: page_ru_14
+    ru_question_number: 79
+    MOPage: page_mo_14
+    mo_question_number: 82
+  question_80:
+    question: Getting sick a lot.
+    RUPage: page_ru_14
+    ru_question_number: 80
+    MOPage: page_mo_14
+    mo_question_number: 83
+  question_81:
+    question: Overeating.
+    RUPage: page_ru_14
+    ru_question_number: 81
+    MOPage: page_mo_13
+    mo_question_number: 74
+  question_82:
+    question: Breaking things when angry.
+    RUPage: page_ru_14
+    ru_question_number: 82
+    MOPage: page_mo_14
+    mo_question_number: 78
+  question_83:
+    question: Headaches.
+    RUPage: page_ru_14
+    ru_question_number: 83
+    MOPage: page_mo_14
+    mo_question_number: 85
+  question_84:
+    question: Increased heartbeat.
+    RUPage: page_ru_14
+    ru_question_number: 84
+    MOPage: page_mo_15
+    mo_question_number: 86
+  question_85:
+    question: Fighting with friends.
+    RUPage: page_ru_14
+    ru_question_number: 85
+    MOPage: page_mo_15
+    mo_question_number: 87
+
+  question_86:
+    question: 'Feeling "cranky."'
+    RUPage: page_ru_15
+    ru_question_number: 86
+    MOPage: page_mo_15
+    mo_question_number: 88
+  question_87:
+    question: Losing your temper.
+    RUPage: page_ru_15
+    ru_question_number: 87
+    MOPage: page_mo_14
+    mo_question_number: 84
+  question_88:
+    question: 'Feeling "jumpy."'
+    RUPage: page_ru_15
+    ru_question_number: 88
+    MOPage: page_mo_15
+    mo_question_number: 89
+  question_89:
+    question: Not sleeping well.
+    RUPage: page_ru_15
+    ru_question_number: 89
+    MOPage: page_mo_15
+    mo_question_number: 90
+  question_90:
+    question: An upset stomach.
+    RUPage: page_ru_15
+    ru_question_number: 90
+    MOPage: page_mo_14
+    mo_question_number: 79
+  question_91:
+    question: Inability to sleep.
+    RUPage: page_ru_15
+    ru_question_number: 91
+    MOPage: page_mo_15
+    mo_question_number: 91
+  question_92:
+    question: Increased appetite.
+    RUPage: page_ru_15
+    ru_question_number: 92
+    MOPage: page_mo_15
+    mo_question_number: 92
+  question_93:
+    question: Becoming easily upset.
+    RUPage: page_ru_15
+    ru_question_number: 93
+    MOPage: page_mo_15
+    mo_question_number: 93
+
+
+  question_94:
+    question: because I really enjoy school.
+    RUPage: page_ru_16
+    ru_question_number: 94
+    MOPage: page_mo_16
+    mo_question_number: 95
+  question_95:
+    question: "because if I didn't, I'd feel guilty."
+    RUPage: page_ru_16
+    ru_question_number: 95
+    MOPage: page_mo_16
+    mo_question_number: 100
+  question_96:
+    question: so I can make lots and lots of money.
+    RUPage: page_ru_16
+    ru_question_number: 96
+    MOPage: page_mo_16
+    mo_question_number: 97
+  question_97:
+    question: because education is important for the goals I have.
+    RUPage: page_ru_16
+    ru_question_number: 97
+    MOPage: page_mo_16
+    mo_question_number: 98
+  question_98:
+    question: "so important people in my life won't be disappointed in me."
+    RUPage: page_ru_16
+    ru_question_number: 98
+    MOPage: page_mo_16
+    mo_question_number: 99
+  question_99:
+    question: "because it's fun."
+    RUPage: page_ru_16
+    ru_question_number: 99
+    MOPage: page_mo_16
+    mo_question_number: 101
+  question_100:
+    question: "because I have to, it's required."
+    RUPage: page_ru_16
+    ru_question_number: 100
+    MOPage: page_mo_17
+    mo_question_number: 102
+  question_101:
+    question: "because I don't want to let others down."
+    RUPage: page_ru_16
+    ru_question_number: 101
+    MOPage: page_mo_16
+    mo_question_number: 96
+
+  question_102:
+    question: because skills like reading, math, and science are important to me.
+    RUPage: page_ru_17
+    ru_question_number: 102
+    MOPage: page_mo_17
+    mo_question_number: 103
+  question_103:
+    question: "because if I don't, I'll get punished."
+    RUPage: page_ru_17
+    ru_question_number: 103
+    MOPage: page_mo_16
+    mo_question_number: 94
+  question_104:
+    question: because failing to get my diploma would bother and disappoint me.
+    RUPage: page_ru_17
+    ru_question_number: 104
+    MOPage: page_mo_17
+    mo_question_number: 104
+  question_105:
+    question: because there are <strong>a lot</strong> of interesting things to do.
+    RUPage: page_ru_17
+    ru_question_number: 105
+    MOPage: page_mo_17
+    mo_question_number: 107
+  question_106:
+    question: because I see the <strong>importance</strong> of learning.
+    RUPage: page_ru_17
+    ru_question_number: 106
+    MOPage: page_mo_17
+    mo_question_number: 105
+  question_107:
+    question: because, to me, education is important.
+    RUPage: page_ru_17
+    ru_question_number: 107
+    MOPage: page_mo_17
+    mo_question_number: 106
+  question_108:
+    question: "I wouldn't be here if I really had a choice about it."
+    RUPage: page_ru_17
+    ru_question_number: 108
+    MOPage: page_mo_17
+    mo_question_number: 108

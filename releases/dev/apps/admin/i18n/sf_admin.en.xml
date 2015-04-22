@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      <!-- Actions -->
+      <trans-unit>
+        <source>New</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Edit</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Delete</source>
+      </trans-unit>
+      <trans-unit>
+        <source>List</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Save</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Save and add</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Cancel</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Choose an action</source>
+        <target>Choose an Action</target>
+      </trans-unit>
+      <trans-unit>
+        <source>go</source>
+        <target>Go</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Back to list</source>
+        <target>Back to List</target>
+      </trans-unit>
+
+      <!-- Filters -->
+      <trans-unit>
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Filter</source>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit>
+        <source>No result</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Actions</source>
+      </trans-unit>
+      <trans-unit>
+        <source>(page %%page%%/%%nb_pages%%)</source>
+      </trans-unit>
+      <trans-unit>
+        <source>asc</source>
+      </trans-unit>
+      <trans-unit>
+        <source>desc</source>
+      </trans-unit>
+      <trans-unit>
+        <source>[0] no result|[1] 1 result|(1,+Inf] %1% results</source>
+      </trans-unit>
+
+      <!-- Pagination -->
+      <trans-unit>
+        <source>First page</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Previous page</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Next page</source>
+      </trans-unit>
+      <trans-unit>
+        <source>Last page</source>
+      </trans-unit>
+
+      <!-- Form -->
+      <trans-unit>
+        <source>The item was created successfully.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was updated successfully.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was created successfully. You can add another one below.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was updated successfully. You can add another one below.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>The item has not been saved due to some errors.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was deleted successfully.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>You must at least select one item.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>You must select an action to execute on the selected items.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>A problem occurs when deleting the selected items as some items do not exist anymore.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>The selected items have been deleted successfully.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>A problem occurs when deleting the selected items.</source>
+      </trans-unit>
+      <trans-unit>
+        <source>is empty</source>
+      </trans-unit>
+      <trans-unit>
+        <source>yes or no</source>
+      </trans-unit>
+      <trans-unit>
+        <source>yes</source>
+      </trans-unit>
+      <trans-unit>
+        <source>no</source>
+      </trans-unit>
+      <trans-unit>
+        <source><![CDATA[from %from_date% to %to_date%]]></source>
+      </trans-unit>
+      <trans-unit>
+        <source><![CDATA[from %from_date%<br />to %to_date%]]></source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

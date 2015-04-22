@@ -1,0 +1,55 @@
+*.tmp
+
+# /
+/.project
+/nbproject
+/.idea
+/atlassian-ide-plugin.xml
+
+# /cache/
+/cache/*
+
+# /config/
+/config/*schema-transformed.xml
+
+# /data/sql/
+/data/sql/lib.model.schema.sql
+/data/sql/schema.sql
+/data/sql/plugins.*.sql
+/data/sql/sqldb.map
+
+# /lib/filter/doctrine/
+/lib/filter/doctrine/base
+/lib/filter/doctrine/*/base
+
+# /lib/form/doctrine/
+/lib/form/doctrine/base
+/lib/form/doctrine/*/base
+
+# /lib/model/doctrine/
+/lib/model/doctrine/base
+/lib/model/doctrine/*/base
+
+# /lib/model/map/
+/lib/model/map/*
+
+# /lib/model/om/
+/lib/model/om/*
+
+# /lib/vendor/
+
+# /lib/vendor/phpexcel/
+/lib/vendor/phpexcel/Tests
+/lib/vendor/phpexcel/Documentation
+
+# /log/
+/log/*
+
+# /plugins/
+
+web/audio/*.m4a
+web/audio/*.wav
+web/check.php
+
+composer.phar
+/vendor/

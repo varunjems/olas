@@ -1,0 +1,98 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/05-Factories
+
+prod:
+  logger:
+    class:   sfNoLogger
+    param:
+      level:   err
+      loggers: ~
+
+test:
+  storage:
+    class: sfSessionTestStorage
+    param:
+      session_path: %SF_TEST_CACHE_DIR%/sessions
+
+  response:
+    class: sfWebResponse
+    param:
+      send_http_headers: false
+
+  mailer:
+    param:
+      delivery_strategy: none
+
+dev:
+  mailer:
+    param:
+      delivery_strategy: none
+
+all:
+  routing:
+    class: sfPatternRouting
+    param:
+      generate_shortest_url:            true
+      extra_parameters_as_query_string: true
+
+  view_cache_manager:
+    class: sfViewCacheManager
+    param:
+      cache_key_use_vary_headers: true
+      cache_key_use_host_name:    true
+
+  #Disable session
+  storage:
+    class: sfNoStorage
+    param:
+      session_name: olas
+
+#  #Session stored in files
+#  storage:
+#    class: urlSessionStorage
+#    param:
+#      session_name: olas
+
+#  #Session stored in db
+#  storage:
+#    class: urlPDOSessionStorage
+#    param:
+#      session_name: olas
+#      db_table:     session
+#      database:     doctrine
+#      db_id_col:    id
+
+## The APC/Memcache sessions are not reliable
+#  #Session stored with APC
+#  storage:
+#    class: urlCacheSessionStorage
+#    param:
+#      session_name: olas
+#      session_cookie_secret: Sr1cyGdBvuCSNvc8hqTxVX5uDOEdvWz
+#      session_url_param: sid
+#      cache:
+#        class: sfAPCCache
+#        param: ~
+
+#  #Session stored with memcache
+#  storage:
+#    class: urlCacheSessionStorage
+#    param:
+#      session_name: olas
+#      session_cookie_secret: Sr1cyGdBvuCSNvc8hqTxVX5uDOEdvWz
+#      session_url_param: sid
+#      cache:
+#        class: sfMemcacheCache
+#        param:
+#          storeCacheInfo: true
+#          lifetime: 86400
+#          prefix: 'x_'
+#          servers:
+#            localserver:
+#              host: 127.0.0.1
+#              port: 11211
+
+  user:
+    class: myUser
+    param:
+      timeout: 14400

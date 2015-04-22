@@ -1,0 +1,118 @@
+#!/bin/bash
+ 
+APPNAME=$(basename $0)
+
+# Make sure we know where we are
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+cd $DIR
+cd ..
+
+TOPDIR=`pwd`
+LOGDIR="${TOPDIR}/log"
+CACHEDIR="${TOPDIR}/cache"
+
+
+# lock dirs/files
+LOCKDIR="${CACHEDIR}/sendscore-lock"
+PIDFILE="${LOCKDIR}/PID"
+MYPID=$$
+ 
+# exit codes and text for them - additional features nobody needs :-)
+ENO_SUCCESS=0; ETXT[0]="ENO_SUCCESS"
+ENO_GENERAL=1; ETXT[1]="ENO_GENERAL"
+ENO_LOCKFAIL=2; ETXT[2]="ENO_LOCKFAIL"
+ENO_RECVSIG=3; ETXT[3]="ENO_RECVSIG"
+ 
+###
+### start locking attempt
+###
+ 
+trap 'ECODE=$?; echo "[${APPNAME}] Exit: ${ETXT[ECODE]}($ECODE)" >&2' 0
+#echo -n "[${APPNAME}] Locking: " >&2
+ 
+if mkdir "${LOCKDIR}" &>/dev/null; then
+ 
+    # lock succeeded, install signal handlers before storing the PID just in case 
+    # storing the PID fails
+    trap 'ECODE=$?;
+          echo "[${APPNAME}] Removing lock. Exit: ${ETXT[ECODE]}($ECODE)" >&2
+          rm -rf "${LOCKDIR}"' 0
+    echo "${MYPID}" >"${PIDFILE}" 
+    # the following handler will exit the script on receiving these signals
+    # the trap on "0" (EXIT) from above will be triggered by this trap's "exit" command!
+    trap 'echo "[${APPNAME}] Killed by a signal." >&2
+          exit ${ENO_RECVSIG}' 1 2 3 15
+    #echo "success, installed signal handlers"
+ 
+else
+ 
+    # lock failed, now check if the other PID is alive
+    OTHERPID="$(cat "${PIDFILE}")"
+ 
+    # if cat wasn't able to read the file anymore, another instance probably is
+    # about to remove the lock -- exit, we're *still* locked
+    #  Thanks to Grzegorz Wierzowiecki for pointing this race condition out on
+    #  http://wiki.grzegorz.wierzowiecki.pl/code:mutex-in-bash
+    if [ $? != 0 ]; then
+      #echo "lock failed, PID ${OTHERPID} is active" >&2
+      exit ${ENO_LOCKFAIL}
+    fi
+ 
+    if ! kill -0 $OTHERPID &>/dev/null; then
+        # lock is stale, remove it and restart
+        #echo "removing stale lock of nonexistant PID ${OTHERPID}" >&2
+        rm -rf "${LOCKDIR}"
+        #echo "[${APPNAME}] restarting myself" >&2
+        exec "$0" "$@"
+    else
+        # lock is valid and OTHERPID is active - exit, we're locked!
+        #echo "lock failed, PID ${OTHERPID} is active" >&2
+        exit ${ENO_LOCKFAIL}
+    fi
+ 
+fi
+
+
+# Find inotifywait if possible (instead of continually polling)
+INOTIFY=/usr/bin/inotifywait
+
+if [ ! -d ${CACHEDIR}/push ]; then
+    # Create the push directory if it was deleted
+    mkdir -p ${CACHEDIR}/push
+fi
+
+if [ ! -f ${CACHEDIR}/push/send ]; then
+    # Create the send notification file
+    touch ${CACHEDIR}/push/send
+    chmod -R 777 ${CACHEDIR}/push
+fi
+
+COUNTER=0
+while [ $COUNTER -lt 60 ]; do
+    if [ ! -f ${CACHEDIR}/push/send ]; then
+        # Cache was probably cleared
+        # Exit so we will get started again
+        exit ${ENO_GENERAL}
+    fi
+
+    ${TOPDIR}/symfony score:push
+
+    if [ -x $INOTIFY ]; then
+        # Only poll every 5 minutes if we can watch for changes
+        #echo "Waiting" >&2
+        $INOTIFY -q -t 300 ${CACHEDIR}/push
+        let COUNTER=COUNTER+5
+    else
+        sleep 60
+        let COUNTER=COUNTER+1
+    fi
+done
+
+exit ${ENO_SUCCESS}

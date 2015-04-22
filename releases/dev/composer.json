@@ -1,0 +1,14 @@
+{
+    "name": "wevad/olas",
+    "description": "ScholarCentric OnLine Assessment System",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "David Ward",
+            "email": "dward@wevad.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~4.1.2"
+    }
+}

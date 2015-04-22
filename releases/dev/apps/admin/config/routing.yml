@@ -1,0 +1,41 @@
+school:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                School
+    module:               school
+    prefix_path:          /school
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: main, action: index }
+
+api_school_create:
+  url:   /api/school/create.:sf_format
+  param: { module: api, action: create }
+  requirements:
+    sf_format: (?:json)
+    sf_method: post
+
+api_school_update:
+  url:   /api/school/:shradsId/update.:sf_format
+  class: sfRoute
+  param: { module: api, action: update }
+  requirements:
+    sf_format: (?:json)
+    sf_method: post
+
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

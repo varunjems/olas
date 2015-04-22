@@ -1,0 +1,5 @@
+Scale:
+  scale_elem_agreement:
+    description: "Elem Agreement"
+  scale_elem_confidence:
+    description: "Elem Confidence"
